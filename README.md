@@ -10,7 +10,7 @@ This is a Python script that uses to farm Microsoft Rewards points. The script a
 
 ## Installation & Usage
 
-1. Open the script in your preferred text editor.
+1. Open the script in your preferred code editor.
 2. Set the wating time according to your system processor.
 3. Run the script using `python script.py`.
 
