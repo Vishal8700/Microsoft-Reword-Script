@@ -50,7 +50,7 @@ def search_random_query():
         webbrowser.open(search_url)
 
         # Pause for 10 seconds before the next search
-        time.sleep(1)
+        time.sleep(10)
 
 if __name__ == "__main__":
     search_random_query()
