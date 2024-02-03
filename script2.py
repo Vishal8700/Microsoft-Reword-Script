@@ -10,35 +10,37 @@ print(random_cvid)
 
 def search_random_query():
     # List of random queries
-    queries = [
-        'python programming',
-        'machine learning',
-        'web development',
-        'data science',
-        'artificial intelligence',
-        'openai',
-        'random topic',
-        'gross domastic product',
-        'india economy',
-        'database',
-        'operating system',
-        'computer science',
-        'placement',
-        'vs code',
-        'python 3.11'
-        'android studio',
-        'Shovels',
-        'Rhinoceros',
-        'Radiology',
-        'Potatoes',
-        'Skull',
-        'Weaving',
-        'Cricket',
-        'Europe',
-        'Hockey',
-        'Water Skiing',
-        'Coffin',
-    ]
+    queries = ['facebook',
+               'youtube',
+               'google',
+               'gmail',
+               'bing homepage quiz',
+               'amazon',
+               'bing',
+               'news for you',
+               'yahoo',
+               'ebay',
+               'top stories',
+               'facebook log in',
+               'weekly quiz',
+               'yahoo mail',
+               'walmart',
+               'us news',
+               'fox news',
+               'bing weekly quiz',
+               'google maps',
+               'nfl',
+               'covid-19',
+               'news',
+               'weather',
+               'maps',
+               'bing',
+               'coronavirus',
+               'cnn',
+               'msn',
+               'fox news',
+               'google']
+
 
     # Loop to search random queries
     for query in queries:
@@ -50,7 +52,7 @@ def search_random_query():
         webbrowser.open(search_url)
 
         # Pause for 10 seconds before the next search
-        time.sleep(10)
+        time.sleep(20)
 
 if __name__ == "__main__":
     search_random_query()
